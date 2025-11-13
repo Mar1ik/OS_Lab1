@@ -1,0 +1,30 @@
+# Compiled binaries
+shell/shell
+cpu-calc-md5/cpu-calc-md5
+cpu-calc-md5/cpu-calc-md5-opt
+cpu-calc-md5/cpu-calc-md5-mt
+ema-replace-int/ema-replace-int
+ema-replace-int/ema-gen-data
+
+# Object files
+*.o
+
+# Test data
+*.bin
+*.dat
+
+# Results
+results/
+
+# CMake
+cmake-build-debug/
+CMakeCache.txt
+CMakeFiles/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
