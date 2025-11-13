@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -D_GNU_SOURCE
-LDFLAGS = -lcrypto -lpthread
+LDFLAGS = -lcrypto -lpthread -lreadline
 
 # Dirs
 SHELL_DIR = shell
